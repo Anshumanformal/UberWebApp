@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Register Driver</title>
+</head>
+<body>
+	
+	<form action="http://localhost:3000/api/v1/driver/register" method="post">
+		<label for="Vehicle ID">Vehicle ID:</label>
+			<input type="text"
+					id="vehicle_id"
+					name="vehicle_id">
+			<br><br>
+			
+        <label for="Driver Name">Driver Name:</label>
+			<input type="text"
+					id="driver_name"
+					name="driver_name">
+			<br><br>
+
+        <label for="Driver Phone">Driver Phone:</label>
+			<input type="number"
+					id="driver_phone"
+					name="driver_phone">
+			<br><br>
+            
+		<label for="Driver Email">Driver Email:</label>
+			<input type="email"
+					id="driver_email"
+					name="driver_email">
+			<br><br>
+		
+		<label for="Driver Password">Driver Password:</label>
+			<input type="password"
+					id="driver_password"
+					name="driver_password">
+			<br><br>
+		
+		<input type="submit" value="Submit">
+	  </form>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Register Customer</title>
+</head>
+<body>
+	
+	<form action="http://localhost:3000/api/v1/customer/register" method="post">
+		<label for="Customer Name">Customer Name:</label>
+			<input type="text"
+					id="customer_name"
+					name="customer_name">
+			<br><br>
+			
+		<label for="Customer Email">Customer Email:</label>
+			<input type="email"
+					id="customer_email"
+					name="customer_email">
+			<br><br>
+		
+		<label for="Customer Password">Customer Password:</label>
+			<input type="password"
+					id="customer_password"
+					name="customer_password">
+			<br><br>
+		
+		<label for="Customer Phone">Customer Phone:</label>
+			<input type="number"
+					id="customer_phone"
+					name="customer_phone">
+			<br><br>
+		<input type="submit" value="Submit">
+	  </form>
+</body>
+</html>

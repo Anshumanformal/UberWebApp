@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Book ride</title>
+</head>
+<body>
+	
+	<form action="http://localhost:3000/api/v1/booking/book-rides" method="post">
+		<label for="Customer ID">Customer ID:</label>
+			<input type="number"
+					id="customer_id"
+					name="customer_id">
+			<br><br>
+			
+        <label for="Source Ride">Source Ride:</label>
+			<input type="text"
+					id="source_ride"
+					name="source_ride">
+			<br><br>
+
+        <label for="Destination Ride">Destination Ride:</label>
+			<input type="text"
+					id="destination_ride"
+					name="destination_ride">
+			<br><br>
+            
+		<label for="Driver ID">Driver ID:</label>
+			<input type="number"
+					id="driver_id"
+					name="driver_id">
+			<br><br>
+		
+		<input type="submit" value="Submit">
+	  </form>
+</body>
+</html>

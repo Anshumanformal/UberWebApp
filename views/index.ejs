@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uber Web App Home Page</title>
+</head>
+
+<style>
+    body {
+  background-image: url("data:image/jpeg;base64,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");
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-repeat: no-repeat;
+  background-size: cover;     
+}
+</style>
+
+<body>
+    <div style="text-align: center;">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAN8AAAB1CAMAAAD5oMSWAAAAaVBMVEUAAAABAQH///+RkZG+vr7r6+vIyMhXV1dCQkI0NDTd3d3Z2dn09PRUVFQeHh76+vqysrJcXFxhYWFNTU3Ozs52dnY6OjotLS3l5eWHh4dISEhubm5oaGgmJiYNDQ19fX2mpqYXFxednZ2Mtq39AAADBUlEQVR4nO3Y2WKiMBQG4LAEhKQGkE1xf/+HnJwEJNaxF0wdT9rz32APofIZzCILfnbYu2/gxSGf3yGf3yGf3yGf3yGf3yGf3yGf3/mdPuZjyEc+zCEf+TCHfOTDHPKRD3PIRz7MIR/5MId85MMc8pEPc8hHvucpq6pau4WNLmSM7T7XX5bX+nopZeoWYiVlxFihpPr4JsHXea2Ph2F450t0QftifSDfd4R85Hue3+7rqmHYfxw/XdWWurq6/dl13UG/efuxW3AH7/S1hVBhqHiydZts4lzqap/sx0IuRHFM45wLv3yRZozhY9cE7FjcimGSmaJ+VZ9MK698dehEnez5zFaVMoe+1WLwcfNRSK98kHhflk1iRHa4MSfiIU33pppcmPFBg7g4e+YTB1vc9NA5sB6N4EVlqyX02XXyLbG92SfGFXbAWm4pF31UzdS2UVYNbeuFvDf6uDMBVsDNTPcVcxWGmsb69mxh3ueL3XpuGsLZ9rIec2ykaQUDzYotzPt8jVu/QuEgoBvzOfoB7Y1PZP75WrfewBcwy8OHcNQ+GBhLtyCe+GD+jrL+0SdR+2C2PrmF/ovnc1iDvlvdB7UPbttdNcKQP/kSt6F9kOO/jpSIffC1CqdlfzDOe6NPOg/uAIbOzA+PMx1inxkR7eAOl59Dxxfmt0HfLFV02XTj+XZ10be4fYEZN8LefgXbcWtwW5/l40psC6wclpqmeWHXNbCTkNsAs4+NEpUX0bWetkPz+lrV27K6CrNZsJ1pPgJeDOlQ8LEtbt9x2irYHqud9Ytyp7lpljy7zZXZ+GL2BWy9ne83OcSzb9XM+9tk/unB2fXmdgqBV1h9MKwcopxLyftYL6ivQtQnONR9xo6RgBM83txdshWc6+b13l7ORC2KDqvPJkvLjfMr0vyv2vsTYy6bdPfYdlH+j+9fs/y9/fAtD/nIhznkIx/mkI98mEM+8mEO+ciHOeQjH+aQj3yYQz7yYQ75fo3v54R8fod8fod8fod8fod8fod8fod8fuen+/4A6chKjcJm26AAAAAASUVORK5CYII=" alt="Uber Logo">
+    </div>
+    <h1 style="text-align: center;">Home Page of Uber Web App<h1>
+        <ol>
+            <li>Visit <a href="http://localhost:3000/api/v1/customer/register" target="_blank" rel="noopener noreferrer">Register Customer</a> to register a user</li>
+            <!-- This is a get request to /get-all-customers endpoint -->
+            <li>Visit <a href="http://localhost:3000/api/v1/customer/get-all-customers" target="_blank" rel="noopener noreferrer">Get all customers</a> to fetch all customers</li>
+            <li>Visit <a href="http://localhost:3000/api/v1/driver/register" target="_blank" rel="noopener noreferrer">Register Driver</a> to register a driver</li>
+            <li>Visit <a href="http://localhost:3000/api/v1/booking/book-rides" target="_blank" rel="noopener noreferrer">Book ride</a> to book your ride</li>
+            <li>Visit <a href="http://localhost:3000/api/v1/booking/find-driver" target="_blank" rel="noopener noreferrer">Find available drivers</a> to find the drivers who are available</li>
+            <li>Visit <a href="http://localhost:3000/api/v1/booking/check-bookings" target="_blank" rel="noopener noreferrer">Check bookings</a> to check bookings</li>
+            <li>Visit <a href="http://localhost:3000/api/v1/booking/cancel-booking" target="_blank" rel="noopener noreferrer">Cancel booking</a> to cancel your booking(will work when you have bookings)</li>
+            <li>Visit <a href="http://localhost:3000/api/v1/booking/completed-booking" target="_blank" rel="noopener noreferrer">Complete booking</a> to mark your booking as completed(will work when you have bookings)</li>
+        </ol>
+</body>
+</html>

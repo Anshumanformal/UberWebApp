@@ -2,7 +2,7 @@
 
 ##  This project is based on uber-app. We can SignUp/SignIn/SignOut as a Customer and Driver. Customer can book and cancel ride and check bookings via booking-id and Driver can also cancel the ride and update booking.  
 
-## [UberWebApp](https://uberwebapp.onrender.com)
+## [UberWebApp](https://uberwebapp.onrender.com) - Wait for sometime on first click to wake up the server.
 ## [Screenshots](https://anshumanformal.github.io/UberWebApp/)
 # Home page
 

@@ -1,8 +1,15 @@
-# Project-(Uber-Web-App)
+# Project-Uber-Web-App
 
 ##  This project is based on uber-app. We can SignUp/SignIn/SignOut as a Customer and Driver. Customer can book and cancel ride and check bookings via booking-id and Driver can also cancel the ride and update booking.  
 
-## Currently there are 3 Tables
+# Home page
+## ![UberWebApp](https://uberwebapp.onrender.com)
+## ![Screenshots](https://anshumanformal.github.io/UberWebApp/)
+
+![](public/Uber_WebApp_HomePage.PNG)
+
+## Currently there are 3 Tables in the web app
+
 ### 1. Customer Table Details
 
 ![](DB_Image/Customer_table_description.PNG)
@@ -15,10 +22,7 @@
 
 ![](DB_Image/Booking_table_description.PNG)
 
-### Home page
-
-![](public/Uber_WebApp_HomePage.PNG)
-
+## Screenshots
 ### Book a ride
 
 ![](public/Book_Ride.PNG)
